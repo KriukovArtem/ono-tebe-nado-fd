@@ -1,1 +1,51 @@
-/* место для вашего кода */
+.logo {}
+
+.logo__img-black {
+  width: 148px;
+  height: 105px;
+}
+
+.contacts {
+  margin-left: 148px;
+}
+
+.contacts__list {
+  list-style: none;
+  line-height: 24px;
+  gap: 3px;
+}
+
+
+.contacts__phone {}
+
+.contacts__mail {}
+
+.contacts__address {}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  height: 293px;
+  font-size: 18px;
+}
+
+.menu {}
+
+.menu__list {
+  display: flex;
+  gap: 25px;
+}
+
+.menu__item {
+  list-style: circle;
+}
+
+.menu__link {}
+
+.menu__link-active {
+  text-decoration: none;
+}
+
+.logo__img.logo__img-black {}
