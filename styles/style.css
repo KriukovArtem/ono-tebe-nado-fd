@@ -5,6 +5,12 @@
   line-height: 100%;
 }
 
+.underlined {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  text-decoration: none; 
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
