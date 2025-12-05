@@ -1,9 +1,11 @@
 .contacts {
-  margin-left: 148px;
+  margin-left: 185px;
+  font-family: Raleway, sans-serif; 
 }
 
 .contacts__list {
   gap: 3px;
+  font-size: 18px;
   line-height: 24px;
   list-style: none;
 }

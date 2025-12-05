@@ -33,3 +33,7 @@ a {
 button {
   font: inherit;
 }
+
+ul {
+  list-style: none;
+}
