@@ -224,15 +224,18 @@
 
 .footer {
   display: grid;
-  display: flex;
-  grid-template-columns: 265px 1fr 1fr;
-  justify-content: space-between;
+  grid-template-columns: 1fr auto 1fr;
   margin-top: 180px;
-  padding: 0px 50px 82px;
+  padding: 0 50px 82px;
 }
 
 .footer__contacts {
+  justify-self: flex-start; 
   margin-left: 0;
+}
+
+.footer__menu {
+  justify-self: center;
 }
 
 .footer-menu__list {
@@ -241,6 +244,7 @@
 
 .footer__social-list {
   display: flex;
+  justify-content: flex-end; 
   gap: 48px;
 }
 
