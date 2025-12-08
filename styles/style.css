@@ -46,7 +46,7 @@
   text-decoration: none;
 }
 
-.logo__img.logo__img-black {
+.logo__img-black {
   width: 148px;
   height: 105px;
 }
@@ -57,7 +57,7 @@
   min-height: 757px;
   padding: 165px 50px 50px;
   color: #FFFFFF;
-  background-image: url('/images/cover.jpg');
+  background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -126,6 +126,7 @@
 
 .lots__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-left: 24px;
 }
@@ -182,7 +183,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   margin-top: 155px;
-  margin-left: 72px;
+  margin-left: 48px;
 }
 
 .about__badge {
@@ -191,6 +192,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
+  margin-left: 23px;
   border-radius: 50%;
   background-color: #000000;
 }
@@ -202,7 +204,6 @@
 
 .about__info {
   margin-top: 107px;
-  margin-left: -24px;
 }
 
 .about__text {
@@ -240,12 +241,14 @@
 
 .footer-menu__list {
   text-align: center;
+  list-style: none;
 }
 
 .footer__social-list {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
+  list-style: none;
 }
 
 .footer__social-icon {
