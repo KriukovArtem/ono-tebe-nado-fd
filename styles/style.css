@@ -129,6 +129,7 @@
   flex-wrap: wrap;
   gap: 25px;
   margin-left: 24px;
+  text-decoration: none;
 }
 
 .lots__title {
